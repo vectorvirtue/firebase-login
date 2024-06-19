@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Playwrite PL', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    background-color: saddlebrown;
+  }
+  .form{
+    background-color: bisque;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    width: 70%;
+  }
+  
+  .circle{
+    width: 150px;
+    height: 150px;
+    background-color:saddlebrown;
+    border-radius: 50%;
+    margin-top: -120px;
+    border-top-left-radius: 0px;
+   
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button{
+    outline: NONE;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  input{
+    margin-top: 1em;
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top:0px ;
+  }
+  
+  textarea{
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border-top:0px ;
+    border-left: 0;
+    border-right: 0;
+  }
+  span a{
+    color:black;
+    
+  }
